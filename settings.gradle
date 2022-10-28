@@ -1,0 +1,2 @@
+rootProject.name = 'WaterShopCommon'
+include ':my-app', ':my-sub-project'

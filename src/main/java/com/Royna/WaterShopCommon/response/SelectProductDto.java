@@ -1,4 +1,4 @@
-package com.Royna.WaterShopCommon.request;
+package com.Royna.WaterShopCommon.response;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -10,9 +10,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class CreateSellerDto {
-    String name;
-    String inn;
-    String bik;
-    String description;
+public class SelectProductDto {
+    Long productId;
+    Integer count;
 }

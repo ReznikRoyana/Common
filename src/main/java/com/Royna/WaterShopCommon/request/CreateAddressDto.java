@@ -10,9 +10,14 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class CreateSellerDto {
-    String name;
-    String inn;
-    String bik;
-    String description;
+public class CreateAddressDto {
+    String latitude;
+    String longitude;
+    Long cityId;
+    String street;
+    String house;
+    String flat;
+    String level;
+    boolean elevator;
+    Long userId;
 }

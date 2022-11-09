@@ -1,5 +1,6 @@
 package com.Royna.WaterShopCommon.request;
 
+import com.Royna.WaterShopCommon.enums.UserType;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,9 +11,13 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class CreateSellerDto {
-    String name;
-    String inn;
-    String bik;
-    String description;
+public class CreateUserDto {
+    UserType type;
+    String fullName;
+    String login;
+    String password;
+    //    String email;
+    String phoneNumber;
+//    Long cityId;
+//    Long addressId;
 }

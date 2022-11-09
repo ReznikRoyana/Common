@@ -10,9 +10,6 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class CreateSellerDto {
+public class CreateCountryDto {
     String name;
-    String inn;
-    String bik;
-    String description;
 }
